@@ -21,7 +21,7 @@ public class MotionDetectorModule extends ReactContextBaseJavaModule implements 
   private Sensor mAccelerometer;
   private Sensor mMagnetometer;
   private ReactApplicationContext mReactContext;
-  float[] mGravity;
+  float[] mGravity; 
   float[] mGeomagnetic;
 
   public MotionDetectorModule(ReactApplicationContext reactContext) {
